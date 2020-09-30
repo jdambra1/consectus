@@ -6,9 +6,10 @@
 }
 
 .title {
-  background-color: #00c73c;
+  background-color: #47b55b;
   padding: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Secular One", sans-serif;
+  color: white;
 }
 
 .middleComponent {
@@ -62,11 +63,6 @@
   border-width: 1px;
 }
 
-.mortSave {
-  display: flex;
-  flex-direction: row;
-}
-
 .leftNav {
   padding-left: 20px;
   padding-bottom: 20px;
@@ -77,12 +73,48 @@
   border-width: 1px;
   padding: 10px;
   padding-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
-.nameOne {
-  font-weight: bolder;
+.summaryInfo {
+  background-color: #2fc4eb;
+  padding: 20px;
+  color: white;
 }
 
-.nameTwo {
-  font-weight: bolder;
+.mortSav {
+  display: flex;
+  flex-direction: row;
+  color: #32008f;
+}
+
+.middleComponent {
+  background-color: #47b55b;
+  padding: 20px;
+  color: white;
+}
+
+.leftNav {
+  color: #2fc4eb;
+  text-decoration: none;
+}
+
+.products {
+  color: #47b55b;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navFlexColumn {
+  color: #2fc4eb;
+}
+
+.mort {
+  margin-left: 20px;
+}
+
+.actions {
+  padding-left: 15px;
+  padding-bottom: 20px;
 }
