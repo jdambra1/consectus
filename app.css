@@ -3,15 +3,22 @@
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2016/02/19/11/23/bicycle-1209682_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
   background-color: #47b55b;
   padding: 20px;
-  font-family: "Secular One", sans-serif;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: bolder;
   color: white;
   padding-left: 180px;
   min-width: 1200px;
+  letter-spacing: 4px;
 }
 
 .middleComponent {
@@ -57,6 +64,7 @@
   padding-bottom: 100px;
   border-width: 1px;
   min-width: 1200px;
+  padding: 15px;
 }
 
 .advertTwo {
@@ -65,6 +73,8 @@
   padding-right: 100px;
   border-width: 1px;
   margin-right: 100px;
+  background-color: white;
+  padding: 15px;
 }
 
 .leftNav {
@@ -80,6 +90,7 @@
   padding-bottom: 20px;
   margin-top: 20px;
   margin-right: 20px;
+  color: white;
 }
 
 .summaryInfo {
@@ -113,11 +124,14 @@
 }
 
 .products h3 {
+  color: black;
+  font-family: "Oswald", sans-serif;
   border-radius: 10px;
   border-style: solid;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 .navFlexColumn {
@@ -129,9 +143,13 @@
   border-radius: 10px;
   border-style: solid;
   padding: 5px;
+  background-color: white;
+  font-family: "Oswald", sans-serif;
 }
 
 .actions {
+  color: white;
+  font-family: "Oswald", sans-serif;
   border-radius: 10px;
   border-style: solid;
   display: flex;
@@ -144,4 +162,22 @@
   border-radius: 10px;
   border-style: solid;
   padding: 5px;
+
+  background-color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-item {
+  color: white !important;
+}
+
+@media only screen and (max-width: 1020px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .mortSav {
+    display: flex;
+    order: 1;
+  }
 }
