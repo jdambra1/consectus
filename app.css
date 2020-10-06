@@ -1,3 +1,10 @@
+* {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+
 .main {
   display: flex;
   justify-content: space-between;
@@ -112,11 +119,6 @@
   color: white;
 }
 
-.leftNav {
-  color: #2fc4eb;
-  text-decoration: none;
-}
-
 .products {
   color: #47b55b;
   padding-left: 20px;
@@ -132,10 +134,6 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-}
-
-.navFlexColumn {
-  color: #2fc4eb;
 }
 
 .mort {
@@ -166,18 +164,45 @@
   background-color: white;
   font-family: "Oswald", sans-serif;
 }
-
-.nav-item {
+.leftNav li {
   color: white !important;
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 1020px) {
   .main {
     display: flex;
     flex-direction: column;
+    background-image: none;
+    background-color: #47b55b;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .leftNav {
+    order: 2;
   }
   .mortSav {
-    display: flex;
     order: 1;
+    width: 500px;
+  }
+  .products {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .title {
+    padding-left: 150px;
+  }
+  .middleComponent {
+    background-color: #32008f;
+  }
+  .advertTwo {
+    display: none;
+  }
+  .actions {
+    margin-top: 30px;
   }
 }
