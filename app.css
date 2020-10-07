@@ -72,6 +72,7 @@
   border-width: 1px;
   min-width: 1200px;
   padding: 15px;
+  height: 200px;
 }
 
 .advertTwo {
@@ -79,9 +80,10 @@
   flex-direction: column;
   padding-right: 100px;
   border-width: 1px;
-  margin-right: 100px;
+
   background-color: white;
   padding: 15px;
+  width: 180px;
 }
 
 .leftNav {
@@ -164,12 +166,33 @@
   background-color: white;
   font-family: "Oswald", sans-serif;
 }
-.leftNav li {
+.leftNav .nav .nav-item li {
   color: white !important;
   text-decoration: none;
   list-style-type: none;
   font-style: normal;
   padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: black;
+  opacity: 0.7;
+  width: 140px;
+  margin-top: 20px;
+  border-radius: 25px;
+  margin-left: 5px;
+}
+
+.productMenu {
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 25px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 1020px) {
@@ -181,9 +204,11 @@
     align-items: center;
     justify-content: center;
     justify-content: space-between;
+    max-width: 1080px;
   }
   .leftNav {
     order: 2;
+    margin-right: 490px;
   }
   .mortSav {
     order: 1;
@@ -192,9 +217,11 @@
   .products {
     padding-top: 30px;
     padding-left: 0px;
+    margin-right: 190px;
   }
   .title {
     padding-left: 150px;
+    width: 100%;
   }
   .middleComponent {
     background-color: #32008f;
